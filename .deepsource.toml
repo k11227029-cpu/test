@@ -1,0 +1,12 @@
+version = 1
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+# Try enabling security explicitly
+security = true
+
+# Or try meta configuration
+[analyzers.meta]
+environment = ["nodejs", "browser"]
